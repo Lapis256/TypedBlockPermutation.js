@@ -1,0 +1,23 @@
+{
+  "prettier.printWidth": 90,
+  "editor.formatOnSave": true,
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.config": "./deno.json",
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "cSpell.words": ["gametest", "Molang", "overwold", "overworld", "Raycast"]
+}
